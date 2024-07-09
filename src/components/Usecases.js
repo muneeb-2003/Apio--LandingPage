@@ -13,7 +13,7 @@ const TwoColumnComponent = () => {
     <div className="new-two-column-container">
       <div className="new-column use-cases">
         <div className="h2">
-          <h2>Usecases</h2>
+          <h2>Usecase</h2>
         </div>
         <div className="new-contentusecase">
           <img src={UseCasesImage} alt="Use Cases" className="new-image" />
