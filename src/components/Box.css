@@ -1,0 +1,34 @@
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333; /* Optional: Add background color if needed */
+    color: white;
+    margin: 20px;
+}
+
+.box-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.box-animation {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px; /* Adjust the height of the animation container */
+    background-color: black; /* Background color for the animation */
+}
+
+.box-animation svg {
+    width: 100%; /* Ensure SVG fills its container */
+    height: 100%; /* Ensure SVG fills its container */
+}
+
+/* canvas { */
+    /* background-color: black;
+    width: 120%;
+    height: 100%;
+} */

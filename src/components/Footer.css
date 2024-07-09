@@ -1,0 +1,94 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.59);
+    padding: 15px; 
+}
+
+.column {
+    flex: 1;
+    margin: 0 5px;
+    color: white;
+}
+
+.column img {
+    /* max-width: 150px;  */
+    width: 150px;
+    height: auto;
+    margin: 30px;
+}
+
+.column h3 {
+    font-size: 20px; 
+    margin-bottom: 8px; 
+}
+
+.column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.column ul li {
+    margin-bottom: 3px; 
+}
+
+.column a {
+    color: #ccc; 
+    text-decoration: none;
+    font-size: 19px;
+    padding: 3px 0; 
+}
+
+.column a:hover {
+    text-decoration: underline;
+}
+
+.column form {
+    display: flex;
+    flex-direction: column;
+}
+
+.column label {
+    margin-bottom: 3px;
+}
+
+.column input,
+.column textarea {
+    padding: 6px; 
+    margin-bottom: 5px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+}
+
+.column button {
+    background-color: #fc694f;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 19px;
+    border-radius: 5px;
+    cursor: pointer;
+    width:120px ;
+    font-family: "Poppins", sans-serif;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    /* background-color: #fc694f; */
+    /* color: white; */
+    /* border: none; */
+    /* padding: 6px 12px; Adjusted padding */
+    /* cursor: pointer; */
+    /* border-radius: 4px; */
+    /* font-size: 18px;/ Adjusted font size */
+    /* width: 120px; Set a specific width */
+    /* text-align: center; */
+    /* transition: background-color 0.3s ease, color 0.3s ease; */
+} 
+
+.column button:hover {
+    /* background-color: #111111; */
+    background-color: black;
+    color: white;
+}

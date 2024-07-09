@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px; 
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .contact-container h2 {
+    text-align: center; 
+    color: rgb(241, 219, 219); 
+    padding: 20px; 
+    font-size: 40px;
+    border-radius: 10px;
+    font-family: "proxima nova";
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  .contact-info {
+    /* background-color: rgba(0, 0, 0, 0.59); */
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    gap: 60px; 
+    margin-top: 20px; 
+    padding: 20px; 
+  }
+  .contact-item {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.59);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 5px rgba(12, 12, 12, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+  }
+  
+  .contact-item:hover {
+    background-color: rgba(53, 51, 51, 0.59); 
+    transform: translateY(-5px); 
+  }
+  
+  .contact-icon {
+    width: 35px; 
+    height: auto;
+    margin-right: 10px; 
+    filter: brightness(0) invert(1); /* Change color to white using filter */
+    transition: transform 0.2s ease;
+  }
+  
+  .contact-text {
+    font-size: 20px;
+    color: white; 
+  }
+  
+  .contact-description {
+    text-align: center;
+    font-size: 24px;
+    color: white; 
+    margin-top: 20px; 
+  }
+  

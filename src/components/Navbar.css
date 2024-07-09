@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.59);
+    padding: 10px 10px;
+
+    
+}
+ /* Navbar.css */
+
+/* .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.59);
+    padding: 10px 10px;
+    position: fixed; /* Make the navbar fixed */
+    /* top: 0; /* Align it at the top of the viewport */
+    /* width: 100%; /* Take full width of the viewport */
+   /* z-index: 1000; Ensure it's above other content */
+/* }  */ 
+
+/* Rest of your existing styles remain unchanged */
+
+
+.nav-button {
+    background: linear-gradient(268.35deg, rgba(255, 70, 70, 0.99) 3.47%, rgba(255, 114, 70, 0.99) 60.18%);
+    border: none;
+    color: rgb(7, 7, 7);
+    padding: 11px 30px;
+    text-align: center;
+    margin-right: 5px; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* font-family: "Poppins", sans-serif; */
+    font-family: "Montserrat", sans-serif;
+    font-weight: 625;
+    font-style: normal;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.reg-button {
+    background-color: #fffcfb;
+    border: none;
+    color: rgb(17, 17, 17);
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 10px; 
+    margin-right: 20px;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* font-family: "Poppins", sans-serif; */
+    font-family: "Montserrat", sans-serif;
+    font-weight: 625;
+    font-style: normal;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-button:hover,
+.reg-button:hover {
+    background-color: black;
+    color: white;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex: 1; 
+}
+
+.nav-link {
+    color: #ffffff; 
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px; 
+    margin: 0 10px; 
+    transition: color 0.3s ease;
+    font-family: "Montserrat", sans-serif; 
+}
+
+.nav-link:hover {
+    color: #fc694f;
+ }
+
+.content-1 {
+    text-align: center; 
+    color: rgb(241, 219, 219); 
+    padding: 20px; 
+    font-size: 25px;
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 520;
+    font-style: normal;
+}
+
+.chart-container {
+    display: flex;
+    justify-content: center; /* Center the chart horizontally */
+    margin-top: 40px; /* Space above the chart */
+    /* margin-right: 90px; */
+}
+
+.chart-wrapper {
+    width: 500px; /* Set desired width */
+    height: 500px; /* Set desired height */
+    position: relative;
+}
+
+.nav-logo img {
+    width: 90px; 
+    height: auto; 
+    /* margin-right: 100px;  */
+    margin-left: 30px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px; 
+    /* margin-left: 40px; */
+}
+
+.text-content {
+    color: white;
+    flex: 1;
+    padding-right: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    /* margin-left: 70px; */
+}
+.text-content h1{
+    color:#F08000
+}
+
+
+.get-started-button {
+    background: linear-gradient(268.35deg, rgba(255, 70, 70, 0.99) 3.47%, rgba(255, 114, 70, 0.99) 60.18%);
+    /* border: solid; */
+    /* border-color:rgb(99, 31, 31); */
+    color: rgb(2, 0, 0);
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* font-family: "Poppins", sans-serif; */
+    font-family: "Montserrat", sans-serif;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    
+}
+
+.get-started-button:hover {
+    background-color: black;
+    color: white;
+}
+
+::-webkit-scrollbar {
+    width: 10px; /* width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    /* /* background:#F08000;  */
+    background-color: rgba(245, 112, 71, 0.59);
+    /* border-radius: 5px; roundness of the track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(268.35deg, rgba(255, 70, 70, 0.99) 3.47%, rgba(255, 114, 70, 0.99) 60.18%);
+    /* background: #EC5800;  */
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #fa0202; 
+  }
+  

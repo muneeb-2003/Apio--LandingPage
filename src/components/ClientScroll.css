@@ -1,0 +1,40 @@
+.client-scroll-container {
+    overflow: hidden;
+    text-align: center; 
+    /* background-color: rgba(0, 0, 0, 0.59);  */
+  }
+  
+  .clients-heading {
+    font-size: 40px;
+    color: rgb(241, 219, 219); 
+    margin-bottom: 20px; 
+    font-family: 'proxima nova'; 
+  }
+  
+  .client-scroll-wrapper {
+    display: flex;
+    animation: scrollAnimation 50s linear infinite; 
+  }
+  
+  .client-logo {
+    flex: 0 0 auto;
+    width: 21%; /* Ensure 4 images per row */
+    padding: 0 10px; 
+  }
+  
+  .client-logo img {
+    width: 100%; 
+    height: auto;
+    max-width: 100%;
+    border-radius: 10px; 
+  }
+  
+  @keyframes scrollAnimation {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
