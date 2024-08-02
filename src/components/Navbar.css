@@ -90,6 +90,7 @@
 
 .nav-link:hover {
     color: #fc694f;
+    cursor: pointer;
  }
 
 .content-1 {

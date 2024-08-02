@@ -9,7 +9,7 @@ const ContactUs = () => {
             <h2>Contact Us</h2>
             <p className="contact-description">
                 We're just a message away! Contact us for any inquiries or
-                collaboration.
+                collaborations.
             </p>
             <div className="contact-info">
                 <div className="contact-item">
